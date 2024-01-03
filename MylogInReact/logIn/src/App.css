@@ -1,0 +1,139 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* background-color: blueviolet; */
+}
+.home{
+  margin-left: 5px;
+  padding-left: 5px;
+  font-weight: 800;
+}
+.mainHead{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px,5px;
+  align-items: center;
+  /* background-color:rgb(237, 181, 157) ; */
+  font-size: 20px;
+  
+}
+.ha{
+  text-decoration: none;
+  color: black;
+}
+.ba{
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+body{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(242, 141, 86) ; */
+  background-color:  #b6cdbd;
+  
+  
+}
+.mainBody{
+  display: flex;
+  margin: 10px 50px 10px 50px;
+  height: 75vh;
+  border-radius: 3%;
+  /* background-color:rgb(254, 93, 24) ; */
+  background-color: #5c715e;
+}
+.leftBody{
+  background-color: aqua;
+  width: 55vh;
+  margin: 20px 25px 20px 25px;
+  background-image: url(lib.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+
+  border-radius: 8%;
+  
+}
+.rightBody{
+  width: 55vh;
+  margin: 10px 25px 20px 25px;
+  padding: 20px;
+  /* font-size: 20px; */
+  
+}
+#bodyHead{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+#pbody{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-bottom: 2px;
+  font-weight: 548;
+  color: rgb(10, 10, 10);
+}
+input{
+  width:80%;
+  height: 25px;
+  margin-bottom: 12px;
+  border: 1px solid white;
+background: none;
+border-radius: 5px;
+/* box-shadow: 1px 1px 1px 1px grey; */
+}
+.forgot{
+  text-align: right;
+  margin-right: 11vh;
+  
+}
+.loginBtn{
+  /* background-color: brown; */
+  border-radius: 5px;
+  background:none;
+  border: 1px solid  white;
+  margin-top: 10px;
+  height: 25px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.btns{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.btnBottom{
+  
+  margin-top: 12px;
+  background: none;
+  width: 30%;
+  height: 8vh;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+input:hover{
+  border: 1px solid #b6cdbd;
+}
+button:hover{
+  background-color: #b6cdbd;
+  transform: scale(1.01);
+
+  transition-duration: 0.5s;
+}
+#pbody:hover{
+  color: #b6cdbd;
+}
+a:hover{
+  
+ color: rgb(3, 66, 45);
+}
+
+
+
